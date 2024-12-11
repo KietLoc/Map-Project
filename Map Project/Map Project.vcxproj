@@ -128,16 +128,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Map Project.cpp" />
-    <ClCompile Include="Schedule.cpp" />
-    <ClCompile Include="ScheduleItem.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="resource.h" />
-    <ClInclude Include="Schedule.h" />
-    <ClInclude Include="ScheduleItem.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\..\Downloads\schedule.csv" />
+    <Text Include="summerSchedule.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
